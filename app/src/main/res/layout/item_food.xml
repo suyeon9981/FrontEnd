@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="@drawable/bordef"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/iv_foodImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp">
+        <ImageView
+            android:src="@drawable/rice"
+            android:layout_width="65dp"
+            android:layout_height="65dp"/>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        app:cardCornerRadius="30dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#d9d9d9"
+        app:contentPadding="3dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="레시피"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

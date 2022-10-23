@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#ffffff">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/but1"
+            android:layout_width="255dp"
+            android:layout_height="48dp"
+            android:background="@drawable/img"
+            android:translationX="145dp"
+            android:translationY="22dp"
+            tools:ignore="SpeakableTextPresentCheck">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but3"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/confirm_btn"
+                android:text="한식"
+                android:translationX="2dp"
+                android:translationY="25dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but4"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/confirm_btn"
+                android:text="일식"
+                android:translationX="2dp"
+                android:translationY="25dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but5"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/confirm_btn"
+                android:text="중식"
+                android:translationX="2dp"
+                android:translationY="25dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but6"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/confirm_btn"
+                android:text="양식"
+                android:translationX="2dp"
+                android:translationY="25dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but7"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/confirm_btn"
+                android:text="분식"
+                android:translationX="2dp"
+                android:translationY="25dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/but8"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:layout_margin="3dp"
+                android:background="@drawable/confirm_btn"
+                android:text="기타"
+                android:translationX="2dp"
+                android:translationY="25dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+</LinearLayout>
